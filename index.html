@@ -1,0 +1,20 @@
+<!doctype html><html><head><meta charset="UTF-8"/><link rel="icon" href="/elegant-admin/favicon.ico"/><link rel="stylesheet" href="/elegant-admin/browser_upgrade/index.css"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>管理后台通用脚手架</title><script>if ((navigator.language || navigator.browserLanguage).toLowerCase() === 'zh-cn') {
+  console.info('%c由%c 智慧网络医院 %c提供技术支持', 'font-size: 14px; margin-bottom: 2px; padding: 6px 8px; color: #fff; background: #707070;', 'font-size: 14px; margin-bottom: 2px; padding: 6px 8px; color: #fff; background: #707070;', 'font-size: 14px; margin-bottom: 2px; padding: 6px 8px; color: #fff; background: #707070;', '\nMr Zhang');
+} else {
+  console.info('%c由%c 智慧网络医院 %c提供技术支持', 'font-size: 14px; margin-bottom: 2px; padding: 6px 8px; color: #fff; background: #707070;', 'font-size: 14px; margin-bottom: 2px; padding: 6px 8px; color: #fff; background: #707070;', 'font-size: 14px; margin-bottom: 2px; padding: 6px 8px; color: #fff; background: #707070;', '\nMr Zhang');
+}</script><script type="module" crossorigin src="/elegant-admin/assets/js/index-5246f43c.js"></script><link rel="modulepreload" crossorigin href="/elegant-admin/assets/js/lodash-es-vendor-21d271af.js"><link rel="modulepreload" crossorigin href="/elegant-admin/assets/js/tinymce-vendor-835bc827.js"><link rel="modulepreload" crossorigin href="/elegant-admin/assets/js/element-plus-vue-vendor-73eca4b6.js"><link rel="stylesheet" href="/elegant-admin/assets/index-ef4598a1.css"></head><body><div id="app"><div class="elegant-admin-home"><div class="loading-box"><div class="loading-wrap"><span class="dot dot-spin"><i></i><i></i><i></i><i></i></span></div><div class="loading-text">页面初始化中，请稍候...</div></div></div><div id="browser-upgrade"><div class="title">为了您的体验，推荐使用以下浏览器</div><div class="browsers"><a href="https://www.microsoft.com/edge" target="_blank" class="browser"><img class="browser-icon" src="/elegant-admin/browser_upgrade/edge.png" alt=""/><div class="browser-name">Mircosoft Edge</div></a><a href="https://www.google.cn/chrome/" target="_blank" class="browser"><img class="browser-icon" src="/elegant-admin/browser_upgrade/chrome.png" alt=""/><div class="browser-name">Google Chrome</div></a></div></div></div><script>(function(){
+  if(!!window.ActiveXObject || "ActiveXObject" in window) {
+    document.getElementById('browser-upgrade').style.display = 'block'
+  } else {
+    const Loading = document.querySelector('.loading-box');
+    Loading.classList.add('animate')
+    Loading.addEventListener('animationend', function() {
+      setTimeout(function() {
+        Loading.classList.remove('animate')
+      }, 600)
+      setTimeout(function() {
+        Loading.classList.add('animate')
+      }, 1000)
+    })
+  }
+})()</script></body></html>

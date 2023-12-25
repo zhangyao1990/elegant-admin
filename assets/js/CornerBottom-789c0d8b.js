@@ -1,0 +1,6 @@
+
+	/**
+ * 	由 智慧网络医院 提供技术支持
+ */
+	
+import{d as e,b as s,c as l,Z as o}from"./element-plus-vue-vendor-73eca4b6.js";import"./lodash-es-vendor-21d271af.js";import"./tinymce-vendor-835bc827.js";const r={version:"1.1",xmlns:"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink",height:"896",width:"967.8852157128662"},n=o("path",{id:"path-2",opacity:"1","fill-rule":"evenodd",d:"M896,448 C1142.6325445712241,465.5747656464056 695.2579309733121,896 448,896 C200.74206902668806,896 5.684341886080802e-14,695.2579309733121 0,448.0000000000001 C0,200.74206902668806 200.74206902668791,5.684341886080802e-14 447.99999999999994,0 C695.2579309733121,0 475,418 896,448Z"},null,-1),i={id:"linearGradient-3",x1:"0.5",y1:"0",x2:"0.5",y2:"1"},a=["stop-color"],p=["stop-color"],c=o("g",{opacity:"1"},[o("use",{"xlink:href":"#path-2",fill:"url(#linearGradient-3)","fill-opacity":"1"})],-1),m=e({__name:"CornerBottom",props:{startColor:{default:"#28aff0"},endColor:{default:"#120fc4"}},setup(d){return(t,f)=>(s(),l("svg",r,[o("defs",null,[n,o("linearGradient",i,[o("stop",{offset:"0","stop-color":t.startColor,"stop-opacity":"1"},null,8,a),o("stop",{offset:"1","stop-color":t.endColor,"stop-opacity":"1"},null,8,p)])]),c]))}});export{m as default};

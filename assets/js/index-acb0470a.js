@@ -1,0 +1,6 @@
+
+	/**
+ * 	由 智慧网络医院 提供技术支持
+ */
+	
+var d=Object.defineProperty,m=Object.defineProperties;var p=Object.getOwnPropertyDescriptors;var o=Object.getOwnPropertySymbols;var h=Object.prototype.hasOwnProperty,y=Object.prototype.propertyIsEnumerable;var s=(t,e,a)=>e in t?d(t,e,{enumerable:!0,configurable:!0,writable:!0,value:a}):t[e]=a,c=(t,e)=>{for(var a in e||(e={}))h.call(e,a)&&s(t,a,e[a]);if(o)for(var a of o(e))y.call(e,a)&&s(t,a,e[a]);return t},i=(t,e)=>m(t,p(e));import{d as f,A as k,b as l,h as g,u as n,J as u,c as b,Z as x}from"./element-plus-vue-vendor-73eca4b6.js";import{I as S}from"./index-5246f43c.js";const _=["xlink:href"],B=f({name:"SvgIcon"}),N=f(i(c({},B),{props:{name:{type:String,required:!0},flip:{type:String,default:""},rotate:{type:Number,default:0}},setup(t){const e=t,a=k(()=>{const r=[];if(e.flip!=="")switch(e.flip){case"horizontal":r.push("rotateY(180deg)");break;case"vertical":r.push("rotateX(180deg)");break;case"both":r.push("rotateX(180deg)"),r.push("rotateY(180deg)");break}return e.rotate!==0&&r.push(`rotate(${e.rotate}deg)`),`transform: ${r.join(" ")};`});return(r,v)=>t.name.indexOf("ep:")===0?(l(),g(n(S),{key:0,icon:t.name,style:u(n(a))},null,8,["icon","style"])):(l(),b("svg",{key:1,style:u(n(a)),"aria-hidden":"true"},[x("use",{"xlink:href":`#icon-${t.name}`},null,8,_)],4))}}));export{N as _};

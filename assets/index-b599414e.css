@@ -1,0 +1,6 @@
+
+	/**
+ * 	由 智慧网络医院 提供技术支持
+ */
+	
+[data-v-793d75ad]:root{--el-menu-item-height: 50px;--el-menu-sub-item-height: 50px}.page-main[data-v-793d75ad]{position:relative;background-color:var(--g-app-bg);transition:background-color .3s}.page-main.is-collaspe[data-v-793d75ad]{overflow:hidden}.page-main.is-collaspe .collaspe[data-v-793d75ad]{position:absolute;bottom:0;left:0;width:100%;padding:40px 0 10px;font-size:24px;color:var(--el-text-color-primary);text-align:center;text-shadow:0 0 1px var(--el-text-color-primary);cursor:pointer;background:linear-gradient(to bottom,transparent,var(--g-app-bg));transition:background .3s,var(--el-transition-color)}.page-main.is-collaspe .collaspe[data-v-793d75ad]:hover{color:var(--el-text-color-secondary)}.page-main .title-container[data-v-793d75ad]{width:calc(100% + 40px);padding:14px 20px;margin-top:-20px;margin-bottom:20px;margin-left:-20px;border-bottom:1px solid var(--el-border-color-lighter);transition:var(--el-transition-border)}
