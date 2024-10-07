@@ -1,0 +1,8 @@
+
+/**
+ * 由 MrZhang 提供技术支持
+ * Powered by elegant-admin
+ * Github https://github.com/zhangyao1990/elegant-admin
+ */
+
+import{y as V,A as w,a as y}from"./element-plus-BcpS9Xph.js";import{d as E,r as o,w as u,b as U,j as a,n as b}from"./@vue-BQ0xNElQ.js";import"./lodash-es-l8Yk8yFo.js";import"./@vueuse-Z_Tu67E4.js";import"./nprogress-CKQGnqKE.js";import"./@imengyu-BJzol3z-.js";import"./vue-CfajzGni.js";import"./@element-plus-C2zjs0uE.js";import"./@sxzz-D9SI2xQl.js";import"./@ctrl-r5W6hzzQ.js";import"./dayjs-hU0aavi8.js";import"./async-validator-CRbnkQr6.js";import"./memoize-one-BdPwpGay.js";import"./normalize-wheel-es-B6fDCfyv.js";import"./@floating-ui-DiM7Jq06.js";const D=E({props:{modelValue:{type:Array,default:()=>[]}},emits:["update:modelValue"],setup(n,{emit:p,attrs:d}){const l=o([]),r=o(""),i=o(!1),s=e=>{i.value=e};u(l,e=>{p("update:modelValue",e)}),u(()=>n.modelValue,e=>{if(e!=null&&e.length>0&&l.value!=null){if(l.value===e)return;l.value.length=0,l.value.push(...e)}},{deep:!0,immediate:!0});const m=(e,t)=>{b(()=>{l.value=t})},c=(e,t,x)=>{},g=(e,t,x)=>{y.error("上传失败")},f=e=>{},v=U(()=>({...d,"file-list":l.value,"list-type":"picture-card",accept:"image/gif,image/jpeg,image/jpg,image/png,image/svg",onBeforeUpload:f,onChange:m,onSuccess:c,onError:g,onPreview:h})),h=e=>{e.url&&(r.value=e.url,s(!0))};return()=>a("div",{class:"elegant-upload-image"},{default:()=>[a(V,v.value,{default:()=>[a("div",{style:{"text-align":"center"}},{default:()=>[a("span",{class:"icon--elegant icon--elegant--cloud-upload-outlined mr-2px text-lg"}),a("div",{class:"ant-upload-text"},{default:()=>"点击上传"})]})]}),(()=>{if(i.value)return a(w,{urlList:[r.value],onClose:()=>{s(!1)}})})()]})}});export{D as default};
