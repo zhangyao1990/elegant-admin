@@ -1,0 +1,22 @@
+.EColEditor-item {
+  display: flex;
+  align-items: center;
+  padding-top: 6px;
+
+  .elegant-del-btn {
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+
+    &:hover {
+      color: #f22;
+    }
+  }
+}
+
+.add-btn {
+  margin-top: 6px;
+  color: var(--elegant-primary-color);
+  cursor: pointer;
+}

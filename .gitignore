@@ -1,0 +1,30 @@
+node_modules
+.DS_Store
+dist*
+dist-ssr
+*.local
+*.idea
+.eslintcache
+.stylelintcache
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+/package-lock.json
+/pnpm-lock.yaml
+/tsconfig.tsbuildinfo
+/src/types/auto-imports.d.ts
+/src/types/components.d.ts
+/public/version.json

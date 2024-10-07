@@ -1,0 +1,37 @@
+// 属性编辑
+.elegant-attribute-view,
+.elegant-style-view {
+  padding: 16px;
+
+  .elegant-attr-item {
+    display: flex;
+    // align-items  : center;
+    margin-bottom: 12px;
+
+    &.vertical {
+      display: block;
+    }
+
+    // &:hover{
+    //   background-color: var(--elegant-primary-color);
+    // }
+    .elegant-attr-label {
+      width: 80px;
+      overflow: hidden;
+      font-size: var(--elegant-text-sm);
+      line-height: 32px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .elegant-attr-input {
+      display: flex;
+      flex: 1;
+      align-items: center;
+    }
+  }
+}
+
+.elegant-designer-main .el-collapse .el-collapse-item__header {
+  box-sizing: border-box;
+}

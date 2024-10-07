@@ -1,0 +1,19 @@
+.rule-item-main {
+  background-color: var(--elegant-view-color);
+  border-color: var(--elegant-border-color);
+
+  &:hover {
+    border-color: var(--elegant-primary-color);
+  }
+
+  .rule-btn-delete {
+    pointer-events: none;
+    opacity: 0;
+  }
+
+  &:hover > .rule-btn-delete {
+    pointer-events: all;
+    background-color: var(--elegant-primary-color);
+    opacity: 1;
+  }
+}

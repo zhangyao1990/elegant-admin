@@ -1,0 +1,117 @@
+.elegant-tree {
+  .elegant-tree-main {
+    padding-right: 10px;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  a {
+    display: flex;
+    color: var(--elegant-text-main);
+
+    &:hover {
+      color: var(--elegant-text-main);
+    }
+
+    .text {
+      display: inline-block;
+      width: 100%;
+
+      &.hover {
+        background-color: var(--elegant-widget-hover-color);
+      }
+
+      &.checked {
+        color: var(--elegant-primary-color);
+        background: var(--elegant-primary-hover-color);
+      }
+
+      .elegant-text-padding {
+        padding: 0 6px;
+        color: var(--elegant-text-main);
+        white-space: nowrap;
+
+        &.hidden {
+          color: var(--elegant-text-helper);
+        }
+      }
+    }
+  }
+
+  .elegant-node-type-text {
+    margin-left: 6px;
+    font-size: var(--elegant-text-sm);
+    color: var(--elegant-text-disabled);
+  }
+
+  .elegant-tree-node {
+    &.level-1 {
+      padding-left: 10px;
+    }
+
+    min-height: 30px;
+    padding-left: 16px;
+    line-height: 30px;
+    cursor: pointer;
+
+    .icon-expanded {
+      position: absolute;
+      left: 8px;
+      font-size: var(--elegant-text-sm);
+      color: var(--elegant-border-color);
+      transition: transform 0.3s;
+
+      &.expanded {
+        transform: rotate(90deg);
+      }
+    }
+  }
+
+  .elegant-tree-sublist {
+    height: 0;
+    overflow: hidden;
+
+    &.expanded {
+      height: auto;
+    }
+
+    .elegant-tree-node {
+      position: relative;
+
+      &::after,
+      &::before {
+        position: absolute;
+        z-index: 99;
+        content: "";
+        background: var(--elegant-border-color);
+      }
+
+      &::after {
+        top: 0;
+        left: 4px;
+        width: 1px;
+        height: 100%;
+      }
+
+      &::before {
+        top: 13px;
+        left: 4px;
+        width: 8px;
+        height: 1px;
+      }
+
+      &.expanded::before {
+        display: none;
+      }
+
+      &:last-child {
+        &::after {
+          height: 13px;
+        }
+      }
+    }
+  }
+}

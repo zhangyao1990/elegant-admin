@@ -1,0 +1,20 @@
+@import "./static/icons/iconify.css";
+@import "./theme/var";
+@import "./components/tree/src/index";
+@import "./components/designer/src/index";
+@import "./extensions/EActionEditor/index";
+@import "./extensions/ERuleEditor/index";
+@import "./extensions/EColEditor/index";
+@import "./components/asyncLoader/index";
+
+// 基础组件适配样式
+@import "../ui/elementPlus/index";
+
+// iconfont 图标样式
+.iconfont {
+  font-family: elegant-iconfont, iconfont !important;
+  font-size: 1em;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

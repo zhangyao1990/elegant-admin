@@ -1,0 +1,16 @@
+// 头部
+.elegant-header-container {
+  border: 1px solid var(--elegant-border-color);
+  border-bottom: 0;
+}
+
+.elegant-header,
+.elegant-header a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 42px;
+  padding: 0 12px;
+  color: var(--elegant-text-main);
+  background-color: var(--elegant-header-color);
+}

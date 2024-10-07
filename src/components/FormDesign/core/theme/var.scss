@@ -1,0 +1,192 @@
+:root {
+  // Light theme
+
+  --g-ui-primary: var(--el-color-primary);
+  --g-ui-primary-light-1: var(--el-color-primary-light-1);
+  --g-ui-primary-light-2: var(--el-color-primary-light-2);
+  --g-ui-primary-light-3: var(--el-color-primary-light-3);
+  --g-ui-primary-light-4: var(--el-color-primary-light-4);
+  --g-ui-primary-light-5: var(--el-color-primary-light-5);
+  --g-ui-primary-light-6: var(--el-color-primary-light-6);
+  --g-ui-primary-light-7: var(--el-color-primary-light-7);
+  --g-ui-primary-light-8: var(--el-color-primary-light-8);
+  --g-ui-primary-light-9: var(--el-color-primary-light-9);
+  --ui-primary-color: var(--g-ui-primary);
+  --ui-designer-color: #fafafc;
+  --ui-designer-dot-color: #373739;
+  --ui-edit-range-color: #fff;
+  --ui-view-color: #fff;
+  --ui-edit-color: #ccc;
+  --ui-action-bar-color: #fff;
+  --ui-header-color: white;
+  --ui-action-hover-color: #f8f8f8;
+  --ui-widget-hover-color: #f8f8f8;
+  --ui-event-item-color: #f8f8f8;
+  --ui-shadow-color: #0000003d;
+  --ui-text-main: #000000de;
+  --ui-text-medium: #000000ab;
+  --ui-text-secondary: #0009;
+  --ui-text-helper: #0006;
+  --ui-text-disabled: #00000042;
+  --ui-border-color: #d9d9d9;
+  --ui-compoent-tabs-color: #f8f8f8;
+  --ui-text-sm: 12px;
+  --ui-text-md: 14px;
+  --ui-text-lg: 16px;
+
+  // Dark theme
+  --ui-dark-primary-color: var(--g-ui-primary);
+  --ui-dark-designer-color: #18181c;
+  --ui-dark-designer-dot-color: #86909c;
+  --ui-dark-edit-range-color: #232324;
+  --ui-dark-view-color: #252526;
+  --ui-dark-edit-color: #ccc;
+  --ui-dark-action-bar-color: #252526;
+  --ui-dark-header-color: #252526;
+  --ui-dark-action-hover-color: #000;
+  --ui-dark-widget-hover-color: #111;
+  --ui-dark-event-item-color: #111;
+  --ui-dark-shadow-color: #000;
+  --ui-dark-text-main: #ffffffde;
+  --ui-dark-text-medium: #ffffffab;
+  --ui-dark-text-secondary: #fff9;
+  --ui-dark-text-helper: #fff6;
+  --ui-dark-text-disabled: #666;
+  --ui-dark-border-color: #ffffff20;
+  --ui-dark-compoent-tabs-color: #2c2c2c;
+
+  // 主色
+  --elegant-primary-color: var(--ui-primary-color);
+  // hover颜色
+  --elegant-primary-hover-color: var(--g-ui-primary-light-9);
+
+  // 设计器背景色
+  --elegant-designer-color: var(--ui-designer-color);
+  // 设计器点颜色
+  --elegant-designer-dot-color: var(--ui-designer-dot-color);
+  // 画布背景
+  --elegant-edit-range-color: var(--ui-edit-range-color);
+
+  // 属性视图背景色
+  --elegant-view-color: var(--ui-view-color);
+
+  // 拖拽区域背景色
+  --elegant-edit-color: var(--ui-edit-color);
+
+  // 活动视图切换器背景色
+  --elegant-action-bar-color: var(--ui-action-bar-color);
+
+  // 顶部颜色
+  --elegant-header-color: var(--ui-header-color);
+
+  // 动作栏 hover
+  --elegant-action-hover-color: var(--ui-action-hover-color);
+
+  // 窗口部件 hover
+  --elegant-widget-hover-color: var(--ui-widget-hover-color);
+
+  // 窗口部件遮罩颜色
+  --elegant-widget-shade-color: var(--ui-shadow-color);
+
+  // 事件项背景色
+  --elegant-event-item-color: var(--ui-event-item-color);
+
+  // 阴影颜色
+  --elegant-shadow-color: var(--ui-shadow-color);
+
+  // 主要文本颜色
+  --elegant-text-main: var(--ui-text-main);
+
+  /* 次级级文本颜色 */
+  --elegant-text-medium: var(--ui-text-medium);
+
+  // 二级文本颜色
+  --elegant-text-secondary: var(--ui-text-secondary);
+
+  // 辅助文本颜色（更浅）
+  --elegant-text-helper: var(--ui-text-helper);
+
+  // 禁用文本颜色
+  --elegant-text-disabled: var(--ui-text-disabled);
+
+  // 边框颜色
+  --elegant-border-color: var(--ui-border-color);
+
+  // 组件tabs颜色
+  --elegant-compoent-tabs-color: var(--ui-compoent-tabs-color);
+
+  // 组件hover颜色
+  --elegant-compoent-hover-color: rgb(var(--g-ui-primary) 6%);
+
+  // 字体大小
+  --elegant-text-sm: var(--ui-text-sm);
+  --elegant-text-md: var(--ui-text-md);
+  --elegant-text-lg: var(--ui-text-lg);
+  --elegant-divider-color: #e2e8f0;
+}
+
+// 黑暗主题 start
+.dark {
+  // 主色
+  --elegant-primary-color: var(--ui-dark-primary-color);
+  --elegant-primary-hover-color: rgb(var(--ui-dark-primary-color) 8%);
+
+  // 设计器背景色
+  --elegant-designer-color: var(--ui-dark-designer-color);
+  --elegant-designer-dot-color: var(--ui-dark-designer-dot-color);
+  // 画布背景
+  --elegant-edit-range-color: var(--ui-dark-edit-range-color);
+
+  // 属性视图背景色
+  --elegant-view-color: var(--ui-dark-view-color);
+
+  // 拖拽区域背景色
+  --elegant-edit-color: var(--ui-dark-edit-color);
+
+  // 活动视图切换器背景色
+  --elegant-action-bar-color: var(--ui-dark-action-bar-color);
+
+  // 顶部颜色
+  --elegant-header-color: var(--ui-dark-header-color);
+
+  // 动作栏 hover
+  --elegant-action-hover-color: var(--ui-dark-action-hover-color);
+
+  // 窗口部件 hover
+  --elegant-widget-hover-color: var(--ui-dark-widget-hover-color);
+
+  // 窗口部件遮罩颜色
+  --elegant-widget-shade-color: rgb(var(--ui-dark-primary-color) 6%);
+
+  // 事件项背景色
+  --elegant-event-item-color: var(--ui-dark-event-item-color);
+
+  // 阴影颜色
+  --elegant-shadow-color: var(--ui-dark-shadow-color);
+
+  // 主要文本颜色
+  --elegant-text-main: var(--ui-dark-text-main);
+
+  /* 次级级文本颜色 */
+  --elegant-text-medium: var(--ui-dark-text-medium);
+
+  // 二级文本颜色（介于正文和标题之间）
+  --elegant-text-secondary: var(--ui-dark-text-secondary);
+
+  // 辅助文本颜色（更浅）
+  --elegant-text-helper: var(--ui-dark-text-helper);
+
+  // 禁用文本颜色
+  --elegant-text-disabled: var(--ui-dark-text-disabled);
+
+  // 边框颜色
+  --elegant-border-color: var(--ui-dark-border-color);
+
+  // 组件tabs颜色
+  --elegant-compoent-tabs-color: var(--ui-dark-compoent-tabs-color);
+
+  // 组件hover颜色
+  --elegant-compoent-hover-color: rgb(var(--ui-dark-primary-color) 6%);
+  --elegant-divider-color: #3e434c;
+}
+// 黑暗主题 end

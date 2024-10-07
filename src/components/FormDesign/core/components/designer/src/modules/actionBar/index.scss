@@ -1,0 +1,83 @@
+// 活动视图切换器
+.elegant-action-bar {
+  width: 56px;
+  background-color: var(--elegant-action-bar-color);
+  border-right: 1px solid var(--elegant-border-color);
+  border-left: 1px solid var(--elegant-border-color);
+
+  .elegant-action-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    color: var(--elegant-text-main);
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    > div {
+      position: relative;
+    }
+
+    > span {
+      margin-bottom: 4px;
+      font-size: 22px;
+    }
+
+    &:hover {
+      color: var(--elegant-primary-color);
+    }
+
+    &::before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 80%;
+      height: 80%;
+      content: "";
+      background-color: var(--elegant-primary-hover-color);
+      border-radius: 6px;
+      opacity: 0;
+      transition: all 0.3s;
+      transform: translate(-50%, -50%);
+    }
+
+    &.checked {
+      color: var(--elegant-primary-color);
+      // &::after {
+      //   content: "";
+      //   height: 100%;
+      //   width: 2px;
+      //   background-color: var(--elegant-primary-color);
+      //   position: absolute;
+      //   top: 0;
+      //   left: 0;
+      // }
+
+      &::before {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+// 左侧栏
+.elegant-left-sidebar {
+  width: 320px;
+  overflow: hidden auto;
+  background-color: var(--elegant-view-color);
+  border-right: 1px solid var(--elegant-border-color);
+  transition: width 0.3s;
+
+  .elegant-sidebar-container {
+    min-width: 280px;
+    height: 100%;
+  }
+
+  &.hide {
+    width: 0;
+    border: 0;
+  }
+}

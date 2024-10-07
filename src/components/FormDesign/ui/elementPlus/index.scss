@@ -1,0 +1,88 @@
+.elegant-designer-main {
+  .el-input {
+    width: 100% !important;
+  }
+
+  // 表单样式
+  .el-form--inline {
+    [name="elegant-draggable-range"] {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .el-form-item__content {
+      width: 175px;
+    }
+  }
+
+  .el-input-number .el-input__wrapper {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  // 折叠面板
+  .el-collapse {
+    border: 1px solid var(--elegant-border-color);
+    border-top: 0;
+
+    .el-collapse-item__header {
+      width: 100%;
+      height: 42px;
+      padding-left: 12px;
+      background: var(--elegant-compoent-tabs-color);
+      border: 1px solid var(--elegant-border-color);
+      border-right: 0;
+      border-bottom: 1px solid transparent;
+      border-left: 0;
+
+      &.is-active {
+        border-bottom: 1px solid var(--elegant-border-color);
+      }
+    }
+
+    .el-collapse-item:last-child .el-collapse-item__header {
+      border-bottom: 1px solid var(--elegant-border-color);
+    }
+
+    .el-collapse-item__content {
+      padding: 8px;
+    }
+  }
+}
+
+// 适配k-input-size样式
+.elegant-input-size {
+  > .el-input__wrapper {
+    padding-right: 1px;
+  }
+
+  .el-input__suffix {
+    div {
+      position: relative;
+      line-height: auto;
+      border: 0;
+      border-left: 1;
+      border-radius: 0;
+    }
+
+    .el-input__wrapper {
+      border: 0;
+    }
+
+    .el-select__wrapper {
+      height: 32px;
+      line-height: 30px;
+    }
+  }
+}
+
+.elegant-modal-el {
+  height: calc(100vh - 50px);
+  margin: 20px auto 0 !important;
+  border-radius: 10px;
+  // element plus弹出框样式适配
+  .el-dialog__body {
+    height: calc(100% - 76px) !important;
+    padding: 0;
+    overflow: auto;
+  }
+}
