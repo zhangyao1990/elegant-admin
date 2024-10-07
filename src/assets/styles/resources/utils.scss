@@ -1,0 +1,36 @@
+// 定位居中，默认水平居中，可选择垂直居中，或者水平垂直都居中
+@mixin position-center($type: x) {
+  position: absolute;
+
+  @if $type == x {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  @if $type == y {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  @if $type == xy {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
+
+@mixin scroll-bar {
+  &::-webkit-scrollbar-track-piece {
+    background: #fff;
+  }
+
+  &::-webkit-scrollbar {
+    width: 0.75em;
+    height: 0.75em;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #90939957;
+    border-radius: 10px;
+  }
+}
