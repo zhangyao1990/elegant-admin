@@ -91,8 +91,7 @@ pnpm build:pro
 
 点击链接加入 qq 群聊
 
-- [【elegant-admin 交流群：739050558】](https://jq.qq.com/?_wv=1027&k=CtrM9ce2)
-
+- [【elegant-admin 交流群：739050558】](https://qm.qq.com/q/JZMx7dJka)
 ## `Star`
 
 非常感谢留下星星的好心人，感谢您的支持 :heart:

@@ -97,6 +97,7 @@ export default async ({ mode, command }) => {
       preprocessorOptions: {
         scss: {
           additionalData: scssResources.join(''),
+          silenceDeprecations: ['legacy-js-api'],
         },
       },
     },
