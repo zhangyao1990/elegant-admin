@@ -233,6 +233,10 @@
 /***************************  pro-table end  ***************************/
 
 /***************************  element-ui样式覆盖 start  ***************************/
+// 气泡卡片样式覆盖
+.el-popover.el-popper {
+  border-radius: 10px;
+}
 // 分页样式覆盖 start
 .el-pagination .el-select {
   width: 110px;

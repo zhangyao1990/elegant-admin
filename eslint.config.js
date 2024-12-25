@@ -18,6 +18,7 @@ export default antfu(
       '@typescript-eslint/ban-types': 'off', // 禁止使用特定类型
       '@typescript-eslint/no-var-requires': 'off', // 允许使用 require() 函数导入模块
       '@typescript-eslint/no-non-null-assertion': 'off', // 不允许使用后缀运算符的非空断言(!)
+      'ts/no-use-before-define': 'off', // 禁止在 函数/类/变量 定义之前使用它们
       'eslint-comments/no-unlimited-disable': 'off',
       'no-unused-vars': 'off',
       'array-callback-return': 'off',
