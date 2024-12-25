@@ -1,0 +1,8 @@
+
+/**
+ * 由 MrZhang 提供技术支持
+ * Powered by elegant-admin
+ * Github https://github.com/zhangyao1990/elegant-admin
+ */
+
+import C from"./Node-DguPqMLY.js";import{d as N,i as U,r as c,g as b,ai as j,a as k,S as w,U as $,_ as E,Y as P,Z as D,k as L,Q as R}from"./@vue-B5ZJ3lyG.js";const V=N({__name:"CcNode",props:{node:{}},setup(x){const y=x,{fields:d,nodesError:m}=U("flowDesign",{fields:c([]),nodesError:c({})}),e=c("");return b(()=>{var h,_;const a=[],{id:l,assigneeType:o,name:n,users:u,roles:p,leader:g,choice:B,formUser:r,formRole:i,orgLeader:v}=y.node;if(o==="user")if(u.length>0){const t=u.map(s=>getByUsername(s));Promise.all(t).then(s=>{e.value=s.map(f=>f.data.name).join("、")})}else a.push({id:l,name:n,message:"未指定人员"}),e.value="未指定人员";else if(o==="choice")e.value=`发起人自选（${B?"多选":"单选"}）`;else if(o==="self")e.value="发起人自己";else if(o==="leader")e.value=g===1?"直属上级":`${g}级上级`;else if(o==="orgLeader")e.value=v===1?"直属主管":`${v}级主管`;else if(o==="formUser"){r||a.push({id:l,name:n,message:"未指定表单内人员"});const t=((h=d.value.find(s=>s.id===r))==null?void 0:h.label)||r||"?";e.value=`表单内（${t}）人员`}else if(o==="formRole"){i||a.push({id:l,name:n,message:"未指定表单内角色"});const t=((_=d.value.find(s=>s.id===i))==null?void 0:_.label)||i||"?";e.value=`表单内（${t}）角色`}else if(o==="role")if(p.length>0){const t=p.map(s=>getById(s));Promise.all(t).then(s=>{e.value=s.map(f=>f.data.name).join("、")})}else a.push({id:l,name:n,message:"未指定角色"}),e.value="未指定角色";else a.push({id:l,name:n,message:"未知错误"}),e.value=n;a.length>0?m.value[l]=a:delete m.value[l]}),(a,l)=>{const o=j("el-text");return k(),w(C,R(a.$attrs,{icon:"ep:promotion",color:"rgb(50, 150, 250)",node:a.node}),{default:$(()=>[E(o,null,{default:$(()=>[P(D(L(e)),1)]),_:1})]),_:1},16,["node"])}}});export{V as _};

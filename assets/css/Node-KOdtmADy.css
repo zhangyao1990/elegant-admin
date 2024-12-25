@@ -1,0 +1,8 @@
+
+/**
+ * 由 MrZhang 提供技术支持
+ * Powered by elegant-admin
+ * Github https://github.com/zhangyao1990/elegant-admin
+ */
+
+[data-v-fc1ccda5]:root{--el-fill-color-light: #f1faff}.node-box[data-v-fc1ccda5]{position:relative}.node-box[data-v-fc1ccda5]:after{content:"";position:absolute;top:-12px;left:50%;transform:translate(-50%);border-style:solid;width:0;border-width:8px 6px 4px;border-color:var(--el-border-color) transparent transparent;background-color:var(--flow-bg-color)}.node-box .warn-icon[data-v-fc1ccda5]{cursor:pointer;position:absolute;right:-30px;top:50%;transform:translateY(-50%);color:var(--el-color-error)}.node-box .error-node[data-v-fc1ccda5]{box-shadow:0 0 5px 0 var(--el-color-error-light-3)}.node-box .node[data-v-fc1ccda5]{border-radius:7px;cursor:pointer;position:relative;overflow:visible;min-height:90px;width:230px;z-index:10}.node-box .node .node-close[data-v-fc1ccda5]{position:absolute;top:-10px;right:-10px;display:none}.node-box .node[data-v-fc1ccda5]:hover:not(.error-node){box-shadow:0 0 5px 0 var(--el-color-primary)}.node-box .node:hover .node-close[data-v-fc1ccda5]{display:block}.node-box .node[data-v-fc1ccda5] .el-card__header{padding:calc(var(--el-card-padding) - 18px) calc(var(--el-card-padding) - 13px);border-radius:7px 7px 0 0;background:var(--aceef56e)}.node-box .node[data-v-fc1ccda5] .el-card__header .el-input__wrapper{background-color:var(--el-card-bg-color)}.node-box .node[data-v-fc1ccda5] .el-card__body{position:relative}.node-box .node .head[data-v-fc1ccda5]{height:30px;display:flex;align-items:center;justify-content:space-between}

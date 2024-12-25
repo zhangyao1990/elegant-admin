@@ -1,0 +1,8 @@
+
+/**
+ * 由 MrZhang 提供技术支持
+ * Powered by elegant-admin
+ * Github https://github.com/zhangyao1990/elegant-admin
+ */
+
+[data-v-54b7ad08]:root{--el-fill-color-light: #f1faff}.designer-container[data-v-54b7ad08]{--flow-bg-color: var(--7b42e429);position:relative;display:flex;flex-direction:row;height:100%;width:100%;overflow:auto;background-color:var(--flow-bg-color);-ms-overflow-style:none}.designer-container[data-v-54b7ad08]::-webkit-scrollbar{width:0!important;height:0!important}.designer-container .zoom[data-v-54b7ad08]{position:fixed;z-index:999;top:30px;right:40px}.designer-container .zoom span[data-v-54b7ad08]{margin:0 10px}.designer-container .tool[data-v-54b7ad08]{position:fixed;z-index:999;top:5px;left:5px;display:flex;gap:5px}.designer-container .node-container[data-v-54b7ad08]{margin:0 auto;transform:scale(var(--467cba2e));transform-origin:50% 0 0;display:flex;align-items:center;flex-direction:column}

@@ -1,0 +1,8 @@
+
+/**
+ * 由 MrZhang 提供技术支持
+ * Powered by elegant-admin
+ * Github https://github.com/zhangyao1990/elegant-admin
+ */
+
+[data-v-5549fec2]:root{--el-fill-color-light: #f1faff}.node-select[data-v-5549fec2]{cursor:pointer;display:flex;align-items:center;padding:0 20px;height:45px;width:152px;border-radius:6px;position:relative;background-color:var(--el-fill-color-light)}.node-select[data-v-5549fec2]:hover{background-color:var(--el-color-primary-light-9);color:var(--el-color-primary)}.node-select .icon[data-v-5549fec2]{padding:10px;font-size:30px;border-radius:50%;color:var(--el-color-white)}.node-select .icon.stamp[data-v-5549fec2]{background-color:#ff943e}.node-select .icon.promotion[data-v-5549fec2]{background-color:#3296fa}.node-select .icon.share[data-v-5549fec2]{background-color:#45cf9b}.node-select .icon.timer[data-v-5549fec2]{background-color:#e872b7}.node-select .icon.bell-filled[data-v-5549fec2]{background-color:#95d475}.add-but[data-v-5549fec2]{display:flex;justify-content:center;width:100%;padding:20px 0 32px;position:relative}.add-but[data-v-5549fec2]:before{content:"";position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;width:1px;height:100%;background-color:var(--el-border-color)}
